@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canNang = prompt("cân nặng");
+    let chieuCao = prompt("chiều cao");
+    let chiSoIbm = (canNang/chieuCao)/chieuCao;
+    if(chiSoIbm < 18) {
+        document.write("Underweight");
+    }
+  else if(chiSoIbm < 25 ){
+      document.write("Normal")
+    }
+else if(chiSoIbm <30){
+    document.write("Overweight")
+    }
+else {
+    document.write("Obese")
+    }
+</script>
+</body>
+</html>
